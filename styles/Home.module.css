@@ -1,9 +1,58 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0px auto;
+  width: 1200px;
+}
+.listingsection {
+  width: 100%;
+  float: left;
+  padding: 1%;
+  border-bottom: 0.01em solid #dddbdb;
+}
+
+.product {
+  float: left;
+  width: calc(22% - 10px);
+  border-radius: 2%;
+  margin: 1%;
+  border:1px solid #ddd;
+  text-align: center;
+}
+
+.product:hover {
+  box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);  
+  -moz-box-shadow:    1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.imagebox {
+  width: 100%;
+  overflow: hidden;
+  min-height: 175px;
+}
+.imagebox img{
+  text-align: center;
+    height: 175px;
+    margin: 1em;
+    width: auto;
+}
+.textbox {
+  width: 94%;
+  float: left;
+  padding: 1em 3%;
+}
+
+.item, .price {
+  clear: left;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.price {
+  color: Grey;
 }
